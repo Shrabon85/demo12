@@ -1,0 +1,1161 @@
+/*
+    ===========================
+       important css linn start
+    ===========================
+*/
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+width: 100%;
+height: 100vh;
+font-family: montserrat;
+}
+
+
+
+.clear_div {
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/*
+    ===========================
+       important css linn End
+    ===========================
+*/
+
+/*
+    ===========================
+       section 1 start
+    ===========================
+*/
+
+
+
+.section1 {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(rgba(124, 74, 143, 0.9), rgba(124, 74, 143, 0.9)),url(../image/section1/background_image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0px;
+}
+
+.section1 .logo {
+    width: 30%;
+    float: left;
+}
+
+.section1 .logo h1 {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.section1 .nav_menu {
+    width: 68%;
+    float: right;
+    margin-top: 15px;
+}
+
+.section1 .nav_menu li {
+    display: inline-block;
+}
+
+.section1 .nav_menu a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.section1 .nav_menu a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.section1 .mid_text {
+    text-align: center;
+}
+
+.section1 .mid_text h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 100px 100px;
+}
+
+.section1 .button {
+    text-align: center;
+
+}
+
+.section1 .button button {
+    background: #EB7D4B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+}
+
+
+/*
+    ===========================
+       section 1 End
+    ===========================
+*/
+
+
+
+
+/*
+    ===========================
+       section 2 start
+    ===========================
+*/
+
+
+.section2 {
+    background: linear-gradient(rgba(40, 194, 167, 0.9), rgba(40, 194, 167, 0.9)), url(../image/section2/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+}
+
+.section2 .secvices_title {
+    text-align: center;
+    color: white;
+    padding: 90px 0px 25px 0px;
+}
+
+.section2 .secvices_title h1 {
+    font-size: 40px;
+}
+
+.section2 hr {
+    width: 200px;
+    background: #14A58C;
+    border: 2px solid #14A58C;
+    margin: auto;
+}
+
+.section2 .little_description {
+    text-align: center;
+    color: white;
+    padding: 30px 300px 0px 300px;
+}
+
+.section2 .little_description h4 {
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section2 .all_box {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px;
+    padding-bottom: 100px;
+}
+
+.section2 .box1 {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.section2 .box1 img {
+    width: 120px;
+}
+
+.section2 .box1 .box-title {
+    padding: 20px 0px;
+}
+
+.section2 .box1 .box-title h2 {
+    color: white;
+}
+
+.section2 .box1 .box-description h4 {
+    color: white;
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+.section2 .box2 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section2 .box2 img {
+    width: 145px;
+}
+
+.section2 .box2 .box-title {
+    padding: 20px 0px;
+}
+
+.section2 .box2 .box-title h2 {
+    color: white;
+}
+
+.section2 .box2 .box-description h4 {
+    color: white;
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+
+.section2 .box3 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section2 .box3 img {
+    width: 154px;
+}
+
+.section2 .box3 .box-title {
+    padding: 20px 0px;
+}
+
+.section2 .box3 .box-title h2 {
+    color: white;
+}
+
+.section2 .box3 .box-description h4 {
+    color: white;
+    font-weight: 404;
+    padding: 0px 30px;
+
+}
+
+
+.section2 .box4 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section2 .box4 img {
+    width: 123px;
+}
+
+.section2 .box4 .box-title {
+    padding: 20px 0px;
+}
+
+.section2 .box4 .box-title h2 {
+    color: white;
+}
+
+.section2 .box4 .box-description h4 {
+    color: white;
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+/*
+    ===========================
+       section 2 End
+    ===========================
+*/
+
+
+
+
+/*
+    ===========================
+       section 3 start
+    ===========================
+*/
+
+.section3 {
+    background: linear-gradient(rgba(232, 240, 247, 0.9), rgba(232, 240, 247, 0.9)), URL(SECTION3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section3 .mid_text {
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+}
+
+.section3 .mid_text h1 {
+    font-size: 40px;
+    color: rgb(60, 71, 97);
+}
+
+.section3 hr {
+    width: 200px;
+    background: #14A58C;
+    border: 2px solid #c5c5c5;
+    margin: auto;
+}
+
+.section3 .little_description {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.section3 .little_description h4 {
+    color: rgb(60, 71, 97);
+}
+
+.section3 .all_box {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+.section3 .all_box img:hover{
+    box-shadow: 1px 1px 16px;
+}
+
+.section3 .box1 {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.section3 .box1 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .box1 .box-title {
+    margin-top: 10px;
+}
+
+.section3 .box1 .box_title2 h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.section3 .box1 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section3 .box1 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+.section3 .box2 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section3 .box2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .box2 .box-title {
+    margin-top: 10px;
+
+}
+
+.section3 .box2 .box_title2 h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+
+.section3 .box2 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section3 .box2 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+
+.section3 .box3 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section3 .box3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .box3 .box-title {
+    margin-top: 10px;
+
+}
+
+.section3 .box3 .box_title2 h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.section3 .box3 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section3 .box3 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+.section3 .box4 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section3 .box4 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section3 .box4 .box-title {
+    margin-top: 10px;
+
+}
+
+.section3 .box4 .box_title2 h4 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.section3 .box4 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section3 .box4 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+.section3 .social_icon {
+    margin-top: 20px;
+}
+
+.section3 .social_icon li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.section3 .social_icon li a {
+    padding: 3px;
+    background: rgba(75, 75, 75, 0.75);
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.section3 .social_icon li i {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.section3 .social_icon li i:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+/*
+    ===========================
+       section 3 End
+    ===========================
+*/
+
+/*
+    ===========================
+       section 4 start
+    ===========================
+*/
+
+.section4 {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(section4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 0px 50px 0px;
+}
+
+.section4 .mid_text {
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+}
+
+.section4 .mid_text h1 {
+    font-size: 40px;
+    color: rgb(60, 71, 97);
+    font-weight: 500;
+}
+
+.section4 hr {
+    width: 200px;
+    background: #14A58C;
+    border: 2px solid #c5c5c5;
+    margin: auto;
+}
+
+.section4 .little_description {
+    width: 800px;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.section4 .little_description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section4 .all_box {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.section4 .box1 {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.section4 .box1 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section4 .box1 .box-title {
+    padding: 20px 0px;
+}
+
+.section4 .box1 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section4 .box1 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+.section4 .box2 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section4 .box2 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section4 .box2 .box-title {
+    padding: 20px 0px;
+}
+
+.section4 .box2 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section4 .box2 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+
+.section4 .box3 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section4 .box3 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section4 .box3 .box-title {
+    padding: 20px 0px;
+}
+
+.section4 .box3 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section4 .box3 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+
+.section4 .box4 {
+    width: 25%;
+    text-align: center;
+    float: left;
+
+}
+
+.section4 .box4 img {
+    width: 200px;
+    height: 250px;
+}
+
+.section4 .box4 .box-title {
+    padding: 20px 0px;
+}
+
+.section4 .box4 .box-title h2 {
+    color: rgb(60, 71, 97);
+}
+
+.section4 .box4 .box-description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+
+.section4 .social_icon {
+    margin-top: 20px;
+}
+
+.section4 .social_icon li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.section4 .social_icon li i {
+    font-size: 20px;
+    color: white;
+    background: #a4a6a7;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+
+/*
+    ===========================
+       section 4 End
+    ===========================
+*/
+
+/*
+    ===========================
+       section 5 start
+    ===========================
+*/
+
+.section5 {
+    background: linear-gradient(rgba(255, 224, 163, 0.9),rgba(255, 224, 163, 0.9)) , url(../image/section5/background_image.jpg);
+    background-size: cover;
+    
+}
+
+.section5 .container {
+    max-width: 100%;
+}
+
+.section5 .mid_text {
+    text-align: center;
+    padding: 70px 0px 30px 0px;
+}
+
+.section5 .mid_text h1 {
+    font-size: 40px;
+    color: rgb(60, 71, 97);
+    font-weight: 600;
+}
+
+.section5 hr {
+    width: 200px;
+    background: #14A58C;
+    border: 2px solid #cdaf75;
+    margin: auto;
+}
+
+.section5 .little_description {
+    width: 800px;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.section5 .little_description h4 {
+    color: rgb(60, 71, 97);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.section5 .web_apps {
+    text-align: center;
+}
+
+.section5 .web_apps .all {
+    background: white;
+}
+
+.section5 .web_apps li {
+    display: inline-block;
+}
+
+.section5 .web_apps li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 0px 5px;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section5 .all_box {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.section5 .title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.section5 .box1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+}
+
+.section5 .box2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+
+}
+
+.section5 .box3 {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+
+}
+
+.section5 .box4 {
+    width: 50%;
+    float: left;
+    text-align: center;
+
+
+}
+
+.section5 .box_1_2 {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.section5 img{
+    width: 500px;
+}
+
+
+
+
+/*
+    ===========================
+       section 5 End
+    ===========================
+*/
+
+/*
+    ===========================
+       section 6 start
+    ===========================
+*/
+
+.section6 {
+    background: linear-gradient(rgba(217, 86, 139, 0.9),rgba(217, 86, 139, 0.9)) ,url(../image/section6/background_image.jpg);
+    padding: 80px 0px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section6 .mid_text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section6 .mid_text h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.section6 hr {
+    width: 100px;
+    margin: auto;
+    border: 3px solid white;
+    margin-bottom: 30px;
+
+}
+
+.section6 .little_description {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+
+.section6 .little_description h4 {
+    font-weight: 500;
+    color: white;
+}
+
+.section6 .all_box {
+    overflow: hidden;
+    padding: 50px 30px 0px 30px;
+}
+
+.section6 .box_1_2 {
+    width: 40%;
+    overflow: hidden;
+    float: left;
+
+}
+
+.section6 .box_1_2 .image {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.section6 .box_1_2 .image img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.section6 .box_1_2 .description {
+
+    width: 70%;
+    float: right;
+}
+
+.section6 .box_1_2 .description h4 {
+    color: white;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.section6 .box_1_2 .description h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section6 .box_1_2 .description h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #F9DD98;
+}
+
+
+
+
+
+.section6 .box_2_2 {
+    width: 40%;
+    overflow: hidden;
+    float: right;
+}
+
+.section6 .box_2_2 .image {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.section6 .box_2_2 .image img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.section6 .box_2_2 .description {
+
+    width: 70%;
+    float: right;
+}
+
+.section6 .box_2_2 .description h4 {
+    color: white;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.section6 .box_2_2 .description h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.section6 .box_2_2 .description h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #F9DD98;
+}
+
+.section6 .box12 {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+/*
+    ===========================
+       section 6 End
+    ===========================
+*/
+
+/*
+    ===========================
+       section 7 start
+    ===========================
+*/
+
+.section7 {
+    overflow: hidden;
+    background: linear-gradient(rgba(52, 75, 142, 0.9),rgba(52, 75, 142, 0.9)) ,url(../image/section7/background_image.jpg);
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+
+
+.section7 .mid_text {
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.section7 .mid_text h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.section7 hr {
+    width: 100px;
+    margin: auto;
+    border: 3px solid #14224b;
+    margin-bottom: 30px;
+}
+
+.section7 .little_description {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.section7 .little_description h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.section7 .form {
+    max-width: 900px;
+}
+.section7 .form {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section7 .form input {
+    width: 100%;
+    padding: 15px 15px;
+    background: #273A71;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.section7 .form input::placeholder {
+    color: white;
+        font-family: montserrat;
+
+}
+.section7 .form textarea::placeholder {
+    color: white;
+        font-family: montserrat;
+
+}
+
+.section7 .form .name_box {
+    width: 49%;
+    float: left;
+}
+
+.section7 .form .email_box {
+    width: 49%;
+    float: right;
+}
+
+.section7 .form .message_box {
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.section7 .form .message_box textarea {
+    width: 100%;
+    background: #273A71;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+
+}
+.section7 .form .message_box textarea::placeholder{
+    font-family: montserrat;
+}
+
+.section7 .button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section7 .button button {
+    background: rgb(48, 186, 231);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.section8 {
+    background: #e3e3e3;
+}
+
+.section8 .container {
+    width: 1000px;
+    padding: 50px 0px;
+    max-width: 1200px;
+}
+
+
+
+.section8 .description {
+    width: 60%;
+    float: left;
+}
+
+.section8 .description h4 {
+    width: 590px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.section8 hr {
+    width: 100px;
+    border: 3px solid rgb(40, 194, 167);
+    margin-bottom: 10px;
+}
+
+.section8 .image {
+    width: 40%;
+    text-align: right;
+    float: left;
+
+}
+
+.section8 .image img {
+    width: 320px;
+    border-radius: 0px 70px 0px 70px;
+    box-shadow: 16px 16px 15px;
+}
+/*
+    ===========================
+       section 7 End
+    ===========================
+*/
+
+.top_up {
+    width: 50px;
+    height: 50px;
+    background: #ff000000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
